@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabab Grill</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="main-header-area">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+
+                <div class="main-menu">
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#testimonial">Avis</a></li>
+                        <li><a href="#location">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100071155604579&sk=photos" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/nababgrill/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.snapchat.com/add/Nabab-grill84" target="_blank"><i class='bx bxl-snapchat'></i></a>
+                </div>
+
+                <button class="mobile-menu-btn">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- hero section start -->
+    <section class="hero-section" id="home">
+        <video autoplay muted loop class="hero-video">
+            <source src="video/hero-video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+        <div class="hero-overlay"></div>
+    </section>
+    <!-- hero section end -->
+
+       <!-- about section start -->
+       <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-images">
+                <img src="img/about/1.jpg" alt="Notre restaurant" class="about-img about-img-1">
+                <img src="img/about/2.jpg" alt="Nos plats" class="about-img about-img-2">
+            </div>
+            <div class="about-content">
+                <h2>Venez goûter nos naans</h2>
+                <p>Bienvenue chez Nabab Grill,<br> où la passion pour la cuisine authentique rencontre l'innovation culinaire. Depuis notre ouverture, nous nous efforçons de créer une expérience gastronomique unique qui célèbre les saveurs traditionnelles tout en les réinventant avec une touche moderne.</p>
+                <p>Notre équipe de chefs talentueux sélectionne méticuleusement les meilleurs ingrédients locaux pour vous offrir des plats exceptionnels qui raviront vos papilles. Dans une ambiance chaleureuse et contemporaine, nous vous invitons à partager des moments inoubliables autour de nos créations culinaires.</p>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- Menu Section -->
+    <section class="menu_section" id="menu">
+        <div class="container">
+            <div class="section_title text-center">
+                <h2>Notre Menu</h2>
+            </div>
+            <div class="menu-carousel-container">
+                <!-- Swiper -->
+                <div class="swiper menu-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Naans Slide -->
+                        <div class="swiper-slide">
+                            <div class="menu-category-card">
+                                <div class="card-image">
+                                    <img src="img/menu/naans.jpg" alt="Naans">
+                                    <div class="card-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Naans</h3>
+                                    <p>Découvrez nos délicieux naans</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Burgers Slide -->
+                        <div class="swiper-slide">
+                            <div class="menu-category-card">
+                                <div class="card-image">
+                                    <img src="img/menu/burgers.jpg" alt="Burgers">
+                                    <div class="card-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Burgers</h3>
+                                    <p>Nos burgers savoureux</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sandwichs Slide -->
+                        <div class="swiper-slide">
+                            <div class="menu-category-card">
+                                <div class="card-image">
+                                    <img src="img/menu/sandwichs.jpg" alt="Sandwichs">
+                                    <div class="card-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Sandwichs</h3>
+                                    <p>Une variété de sandwichs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Kapsalons Slide -->
+                        <div class="swiper-slide">
+                            <div class="menu-category-card">
+                                <div class="card-image">
+                                    <img src="img/menu/kapsalons.jpg" alt="Kapsalons">
+                                    <div class="card-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Kapsalons</h3>
+                                    <p>Nos spécialités kapsalons</p>
+                                </div>
+                            </div>
+                        </div>
+                           <!-- Assiettes / Tacos Slide -->
+                           <div class="swiper-slide">
+                            <div class="menu-category-card">
+                                <div class="card-image">
+                                    <img src="img/menu/tacos.jpg" alt="Nos Assiettes">
+                                    <div class="card-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Nos Assiettes / Tacos</h3>
+                                    <p>Nos assiettes et tacos totalements composables</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pizzas / Sides Slide -->
+                        <div class="swiper-slide">
+                            <div class="menu-category-card">
+                                <div class="card-image">
+                                    <img src="img/menu/pizzas.jpg" alt="Nos Tacos">
+                                    <div class="card-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Pizzas / Buckets / Desserts</h3>
+                                    <p>Nos pizzas et accompagnements faits maisons</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial_area_start -->
+    <div class="testimonial_area" id="testimonial">
+        <div class="container">
+            <div class="section_title text-center">
+                <h2>Ce que disent nos clients satisfaits</h2>
+            </div>
+            <div class="testimonials_slider swiper">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide">
+                        <div class="single_testimonial">
+                            <div class="quote-icon">
+                                <i class='bx bxs-quote-right'></i>
+                            </div>
+                            <p>Franchement, restaurant au top, un large choix de menu, un accueil chaleureux et souriant, de la nourriture soigneusement préparée et très bonne, je suis parti manger chez Nabab aujourd'hui et c'était tellement bon, je recommande à 100%, allez y les yeux fermés !! Mention spéciale à Nordine, Miloud et Moustapha qui m'ont très bien accueilli encore merci 🙏🏽</p>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="img/testimonials/avatar1.webp" alt="Nacim Sarhan">
+                                <div class="author-info">
+                                    <h4>Nacim Sarhan</h4>
+                                    <span>Client régulier</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide">
+                        <div class="single_testimonial">
+                            <div class="quote-icon">
+                                <i class='bx bxs-quote-right'></i>
+                            </div>
+                            <p>Vraiment le meilleur Tacos d'Avignon , je recommande vraiment ce tacos, accueil , le service et surtout leur tacos excellent !!!</p>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="img/testimonials/avatar2.png" alt="Bilou Dadou">
+                                <div class="author-info">
+                                    <h4>Bilou Dadou</h4>
+                                    <span>Foodie passionné</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide">
+                        <div class="single_testimonial">
+                            <div class="quote-icon">
+                                <i class='bx bxs-quote-right'></i>
+                            </div>
+                            <p>Super lieu avec des employés très sympa et généreux leurs naan sont super bon avec un espace plutôt confortable pour s'installer et manger tranquillement je recommande les yeux fermés</p>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="img/testimonials/avatar3.png" alt="Binks 93">
+                                <div class="author-info">
+                                    <h4>Binks 93</h4>
+                                    <span>Client satisfait</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial_area_end -->
+
+     <!-- Location & Hours Section -->
+     <section class="location_hours_section" id="location">
+        <div class="container">
+            <div class="section_title text-center">
+                <h2>Où nous trouver</h2>
+            </div>
+            <div class="location_hours_wrapper">
+                <div class="info_card map_card">
+                    <div class="location_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2872.6934508673584!2d4.805459776926789!3d43.94592177107699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5eb8c3a4dfb17%3A0x4e58e6c060e8b40!2s45%20Av.%20Pierre%20Semard%2C%2084000%20Avignon!5e0!3m2!1sfr!2sfr!4v1707919431379!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="map_overlay">
+                        <a href="https://goo.gl/maps/dMFNTvJk8Eo6RKWP6" target="_blank" class="directions_btn">
+                            <i class='bx bx-directions'></i>
+                            Obtenir l'itinéraire
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="info_cards_container">
+                    <div class="info_card hours_card">
+                        <div class="card_header">
+                            <i class='bx bx-time-five'></i>
+                            <h4>Horaires d'ouverture</h4>
+                        </div>
+                        <div class="hours_grid">
+                            <div class="day_row">
+                                <span class="day">Lundi</span>
+                                <span class="hours">11:30–01:00</span>
+                            </div>
+                            <div class="day_row">
+                                <span class="day">Mardi</span>
+                                <span class="hours">11:30–01:00</span>
+                            </div>
+                            <div class="day_row">
+                                <span class="day">Mercredi</span>
+                                <span class="hours">11:30–01:00</span>
+                            </div>
+                            <div class="day_row">
+                                <span class="day">Jeudi</span>
+                                <span class="hours">11:30–01:00</span>
+                            </div>
+                            <div class="day_row">
+                                <span class="day">Vendredi</span>
+                                <span class="hours">16:00–01:00</span>
+                            </div>
+                            <div class="day_row">
+                                <span class="day">Samedi</span>
+                                <span class="hours">11:30–01:00</span>
+                            </div>
+                            <div class="day_row">
+                                <span class="day">Dimanche</span>
+                                <span class="hours">11:30–01:00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info_card contact_card">
+                        <div class="card_header">
+                            <i class='bx bx-envelope'></i>
+                            <h4>Contact</h4>
+                        </div>
+                        <div class="contact_info">
+                            <a href="tel:0983065385" class="contact_item">
+                                <i class='bx bx-phone'></i>
+                                <span>09 83 06 53 85</span>
+                            </a>
+                            <a href="https://goo.gl/maps/dMFNTvJk8Eo6RKWP6" target="_blank" class="contact_item">
+                                <i class='bx bx-map'></i>
+                                <span>45 Av. Pierre Semard, 84000 Avignon</span>
+                            </a>
+                            <a href="mailto:contact@niffo.fr" class="contact_item">
+                                <i class='bx bx-envelope'></i>
+                                <span>nbgrill2019@yahoo.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer_content">
+            <div class="container">
+                <div class="footer_grid">
+                    <div class="footer_brand">
+                        <img src="img/logo.png" alt="Nabab Grill Logo" class="footer_logo">
+                        
+                        <div class="social_links">
+                            <a href="https://www.facebook.com/profile.php?id=100071155604579&sk=photos" target="_blank" class="social_link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="https://www.instagram.com/nababgrill/" target="_blank" class="social_link">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                            <a href="https://www.snapchat.com/add/Nabab-grill84" target="_blank" class="social_link">
+                                <i class='bx bxl-snapchat'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer_links">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#home">Accueil</a></li>
+                            <li><a href="#about">À propos</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#testimonial">Avis</a></li>
+                            <li><a href="#location">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_hours">
+                        <h3>Horaires</h3>
+                        <ul>
+                            <li>
+                                <span>Lun-Jeu</span>
+                                <span>11:30–01:00</span>
+                            </li>
+                            <li>
+                                <span>Vendredi</span>
+                                <span>16:00–01:00</span>
+                            </li>
+                            <li>
+                                <span>Sam-Dim</span>
+                                <span>11:30–01:00</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_contact">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>
+                                <i class='bx bx-phone'></i>
+                                <a href="tel:0983065385">09 83 06 53 85</a>
+                            </li>
+                            <li>
+                                <i class='bx bx-map'></i>
+                                <a href="https://goo.gl/maps/dMFNTvJk8Eo6RKWP6" target="_blank">
+                                    45 Av. Pierre Semard, 84000 Avignon
+                                </a>
+                            </li>
+                            <li>
+                                <i class='bx bx-envelope'></i>
+                                <a href="mailto:contact@niffo.fr">nbgrill2019@yahoo.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <p>&copy; 2025 Nabab Grill. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_end -->
+
+    <!-- JS here -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/menu-gallery.js"></script>
+    <script src="js/testimonials.js"></script>
+</body>
+</html>
